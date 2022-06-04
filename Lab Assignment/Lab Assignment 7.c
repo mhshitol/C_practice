@@ -1,5 +1,6 @@
 //7.Write a C program to print prime number from 1 to 200
-#include<stdio.h >
+#include<stdio.h>
+#include<math.h>
 
 int main()
 {
@@ -19,7 +20,7 @@ int main()
             if(a%i==0)
 
             {
-                printf(prime=0);
+                prime=0;
                 break;
             }
         }
